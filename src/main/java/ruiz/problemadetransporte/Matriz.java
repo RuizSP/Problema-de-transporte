@@ -42,6 +42,15 @@ public class Matriz {
     public int getRows() {
         return rows;
     }
+    public int getSize(){
+        int size =0;
+        for (int i=0; i< rows;i++ ){
+            for(int j=0; i<cols;i++){
+                size+=1;
+            }
+        }
+        return size;
+    }
     
     public void imprimir(){
         for(int i= 0; i < this.rows; i++){
