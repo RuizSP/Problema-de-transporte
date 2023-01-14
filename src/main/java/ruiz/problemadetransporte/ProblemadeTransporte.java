@@ -22,11 +22,11 @@ public class ProblemadeTransporte {
     public static void main(String[] args) {
         solucionaTransporte Sol = new solucionaTransporte();
         try {
-            Sol.preencheDemandaOferta("entrada_5.txt");
+            Sol.preencheDemandaOferta("problema_38.txt");
         } catch (FileNotFoundException ex) {
             Logger.getLogger(ProblemadeTransporte.class.getName()).log(Level.SEVERE, null, ex);
         }
-        
+
         
     }
     
